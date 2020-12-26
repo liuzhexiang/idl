@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "github/liuzhexiang/idl";
+
+package my;
+
+message Ping{
+    string ping = 1;
+}
+
+message Pong{
+    string pong = 1;
+}
